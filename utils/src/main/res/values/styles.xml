@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Widget.CurrencyCard" parent="Widget.MaterialComponents.CardView">
+        <item name="shapeAppearance">@style/ShapeAppearance.CurrencyCardShapeAppearance</item>
+    </style>
+    <style name="ShapeAppearance.CurrencyCardShapeAppearance" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">10dp</item>
+    </style>
+    <style name="ShapeAppearanceOverlay.App.CornerSize50Percent" parent="">
+        <item name="cornerSize">50%</item>
+    </style>
+    <style name="ShapeAppearanceOverlay.App.CornerSize10Percent" parent="">
+        <item name="cornerSize">10%</item>
+    </style>
+
+    <style name="Widget.CurrencyTitle" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="android:textSize">20sp</item>
+        <item name="fontFamily">@font/roboto_regular</item>
+    </style>
+
+    <style name="TextAppearance.App.ToggleButton" parent="">
+        <item name="fontFamily">@font/roboto_medium</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textSize">12sp</item>
+
+    </style>
+    <style name="Widget.App.ToggleButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="textAppearanceButton">@style/TextAppearance.App.ToggleButton</item>
+        <item name="android:insetTop">10dp</item>
+        <item name="android:insetBottom">10dp</item>
+    </style>
+
+    <attr name="feedCard" format="reference"/>
+    <attr name="currencyTitle" format="reference"/>
+    <attr name="toggleButton" format="reference" />
+</resources>

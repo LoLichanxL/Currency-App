@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.button.MaterialButtonToggleGroup
+        android:id="@+id/toggle_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:gravity="center"
+        app:singleSelection="true"
+        app:checkedButton="@id/hours_24_button"
+        app:selectionRequired="true"
+        >
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/hours_24_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?attr/toggleButton"
+            android:text="24h"
+            android:textAllCaps="false"
+            >
+
+        </com.google.android.material.button.MaterialButton>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/days_7_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?attr/toggleButton"
+            android:text="7d"
+            android:textAllCaps="false"
+            >
+
+        </com.google.android.material.button.MaterialButton>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/days_30_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?attr/toggleButton"
+            android:text="30d"
+            android:textAllCaps="false"
+            >
+
+        </com.google.android.material.button.MaterialButton>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/days_90_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?attr/toggleButton"
+            android:text="90d"
+            android:textAllCaps="false"
+            >
+
+        </com.google.android.material.button.MaterialButton>
+    </com.google.android.material.button.MaterialButtonToggleGroup>
+</androidx.constraintlayout.widget.ConstraintLayout>

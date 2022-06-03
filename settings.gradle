@@ -1,0 +1,15 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "CurrencyApp"
+include ':app'
+include ':domain'
+include ':data'
+include ':utils'
+include ':feature-main'
+include ':feature-currency-detail'
+include ':news-details'

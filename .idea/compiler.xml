@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="1.7">
+      <module name="CurrencyApp.app" target="11" />
+      <module name="CurrencyApp.data" target="11" />
+      <module name="CurrencyApp.feature-currency-detail" target="11" />
+      <module name="CurrencyApp.feature-feed" target="11" />
+      <module name="CurrencyApp.feature-main" target="11" />
+      <module name="CurrencyApp.news-details" target="11" />
+      <module name="CurrencyApp.utils" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

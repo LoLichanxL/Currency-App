@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/details_nav_graph"
+    app:startDestination="@id/currency_details_fragment"
+    >
+    <fragment android:id="@+id/currency_details_fragment"
+        android:name="com.example.feature_currency_detail.view.CurrencyDetailsFragment"
+        tools:layout="@layout/fragment_currency_details">
+        <argument android:name="currencyName" app:argType="string"/>
+        <deepLink app:uri="currencyapp://currency_details/{currencyName}"/>
+    </fragment>
+</navigation>
